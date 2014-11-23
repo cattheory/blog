@@ -123,6 +123,7 @@ div#footer {
 .info {
   font-style: italic;
   color: #555;
+  font-size:0.9em;
 }
 
 img.photo {

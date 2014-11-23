@@ -45,13 +45,20 @@ div#lightbox {
         width: 152px;
     }
 
-    div#navigation h1, div#navigation a {
+    div#navigation h1, div#navigation > a {
         display: block;
         text-align: right;
     }
 
+    div#navigation > div > a > i.fa {
+      font-size:1.8em;
+    }
+
+    div#navigation > div {
+      text-align: right;
+    }
+
     div#navigation a {
-        color: #333;
         margin: 6px 0px 6px 0px;
     }
 
