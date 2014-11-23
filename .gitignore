@@ -1,0 +1,19 @@
+# Ignore swap files and cabal output.
+*.hi
+*.o
+*.swo
+*.swp
+*~
+.DS_Store
+TAGS
+dist
+tags
+cabal.sandbox.config
+.cabal-sandbox/
+
+# Ignore test builds.
+tests/Main
+_cache
+_store
+_site
+temp/
