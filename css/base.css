@@ -1,5 +1,6 @@
 h1, h2, h3 {
     margin: 0px 0px 18px 0px;
+    color: #333 !important;
     padding: 24px 0px 0px 0px;
 }
 
@@ -21,7 +22,7 @@ div#footer {
 }
 
 html {
-    background-color: #fff;
+    background-color: #f9f9f9;
     font-size: 16px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 24px;

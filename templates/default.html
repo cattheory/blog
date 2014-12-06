@@ -14,13 +14,33 @@
         <link rel="alternate" type="application/rss+xml" title="cat theory blog" href="http://cattheory.com/atom.xml" />
         <meta name="keywords" content="joomy,cumhur,korkut,cat,theory,category,programming,haskell,javascript,vim,turkish,politics,wesleyan"/>
         <meta name="description" content="Joomy's computer science blog."/>
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="Cat Theory Blog">
+        $if(description)$
+          <meta itemprop="description" content="$description$">
+        $else$
+          <meta itemprop="description" content="Joomy's computer science blog.">
+        $endif$
+        <meta itemprop="image" content="/images/icon.png">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="$title$" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://cattheory.com/" />
+        <meta property="og:image" content="/images/logo.png" />
+        $if(description)$
+          <meta property="og:description" content="$description$">
+        $else$
+          <meta property="og:description" content="Joomy's computer science blog.">
+        $endif$
+        <meta property="og:site_name" content="Cat Theory Blog" />
         $if(mathjax)$
           <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         $endif$
     </head>
     <body>
         <div id ="navigation">
-            <h1>cat theory blog</h1>
+            <a href="/"><h1>cat theory blog</h1></a>
             <a href="/">Home</a>
             <a href="/archive.html">Archive</a>
             <h1>my web presence</h1>

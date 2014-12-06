@@ -2,7 +2,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid
 import           Hakyll
-
+import           Text.Pandoc.Options
+import qualified Data.Set as S
 
 --------------------------------------------------------------------------------
 hakyllConf :: Configuration
@@ -30,16 +31,21 @@ main = hakyllWith hakyllConf $ do
     -- match (fromList ["about.markdown"]) $ do
     match "pages/*" $ do
         route   $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ customPandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
     -- Build tags
+    match "pages/poems/*" $ do
+        route   $ setExtension "html"
+        compile $ customPandocCompiler
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= relativizeUrls
     tags <- buildTags "posts/*" (fromCapture "tags/*.html")
 
     match "posts/*" $ do
         route $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ customPandocCompiler
             >>= loadAndApplyTemplate "templates/post.html" (postCtx tags)
             >>= saveSnapshot "post-content"
             >>= loadAndApplyTemplate "templates/default.html" (postCtx tags)
@@ -108,3 +114,13 @@ postCtx tags = mconcat
     , tagsField "tags" tags
     , defaultContext
     ]
+
+customPandocCompiler :: Compiler (Item String)
+customPandocCompiler =
+    let customExtensions = [Ext_footnotes, Ext_autolink_bare_uris]
+        defaultExtensions = writerExtensions defaultHakyllWriterOptions
+        newExtensions = foldr S.insert defaultExtensions customExtensions
+        writerOptions = defaultHakyllWriterOptions {
+                          writerExtensions = newExtensions
+                        }
+    in pandocCompilerWith defaultHakyllReaderOptions writerOptions
