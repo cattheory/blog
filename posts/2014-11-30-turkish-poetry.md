@@ -36,6 +36,7 @@ After some long blabbering, here are my translations:
 
 * [Abraham (İbrahim), by Asaf Halet Celebi](../pages/poems/abraham.html)
 * [After Death (Öldükten Sonra), by Nazim Hikmet](../pages/poems/after-death.html)
+* [Afternoon Song of the Tree (Ağacın İkindi Türküsü), by Afsar Timucin](../pages/poems/afternoon-song-of-the-tree.html)
 * [A Lilac Death (Bir Eflatun Ölüm), by Behcet Aysan](../pages/poems/a-lilac-death.html)
 * [Every Love in Our Age (Çağımızda Her Aşk), by Roni Margulies](../pages/poems/every-love-in-our-age.html)
 * [Fictions of a Child (Çocuğun Kurguları), by Afsar Timucin](../pages/poems/fictions-of-a-child.html)

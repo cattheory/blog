@@ -117,7 +117,7 @@ esintisi zindanlarin avlularindan
 Unutma ben yokolunca değişince kent ve bir yoksulun
 o günlerden
 sana bağışladığı söz ülkesi yitip gidince
-sonsuz ve isimsiz bir deniz kalacak bir de çamagacı
+sonsuz ve isimsiz bir deniz kalacak bir de çamağacı
 benim sularımla öpüşen.
 ```
 </div>
