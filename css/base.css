@@ -134,6 +134,13 @@ img.photo {
   margin: 0;
   margin-left: 18px;
 }
+table {
+  border-collapse: collapse;
+}
+tbody>tr>td, tbody>tr>th, tfoot>tr>td, tfoot>tr>th, thead>tr>td, thead>tr>th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
 
 /*******************************************************************************
  * Disqus                                                                      *

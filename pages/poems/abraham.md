@@ -17,10 +17,10 @@ who has let the sun in my house
 
 nebuchadnezzar idolized the beauties
 who were straying in the hanging gardens
-I, kept the beauties
-since I embraced the intimely gardens
+I embraced the intimely gardens
+hence I kept the beauties
 abraham
-who intended to break an idol but broke my heart instead
+who mistook my heart for an idol and broke it
 ```
 
 </div><div style="float: left">

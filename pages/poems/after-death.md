@@ -39,7 +39,7 @@ Evinin önünden geçiyorken dün
 Geçmiş zamanlara ağladım yine
 Hülyamda yaşarken o güzel yüzün
 
-Neden bugün bu ev böylece işsiz
+Neden bugün bu ev böylece ıssız
 Nerde eski günler nerdesin ey kız
 Sensiz gönlüm şimdi yalnız, yapyalnız
 Derdini sararken bir eski hüzün.
