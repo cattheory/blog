@@ -32,6 +32,8 @@ I'm an amateur, after all. So, I know that translated poems lose some meaning,
 there's not much I can do about that, other than trying to keep as much meaning as possible.
 If the objective is to reflect the poet's tone, there's no way for me to succeed.
 
+# The List
+
 After some long blabbering, here are my translations:
 
 * [Abraham (İbrahim), by Asaf Halet Celebi](../pages/poems/abraham.html)
@@ -41,9 +43,11 @@ After some long blabbering, here are my translations:
 * [Every Love in Our Age (Çağımızda Her Aşk), by Roni Margulies](../pages/poems/every-love-in-our-age.html)
 * [Fictions of a Child (Çocuğun Kurguları), by Afsar Timucin](../pages/poems/fictions-of-a-child.html)
 * [Joy Lost Its Feathers (Havı Dökülmüş Sevincin), by Metin Altiok](../pages/poems/joy-lost-its-feathers.html)
+* [Mist (Sis), by Metin Altiok](../pages/poems/mist.html)
 * [Peninsula (Yarımada), by Cemal Sureya](../pages/poems/peninsula.html)
 * [Rust (Pas), by Edip Cansever](../pages/poems/rust.html)
 * [Seven Little Photos (Yedi Küçük Fotoğraf), by Onat Kutlar](../pages/poems/seven-little-photos.html)
+* [Sonnets (Soneler), by Metin Altiok](../pages/poems/sonnets.html)
 * [Street (Sokak), by Onat Kutlar](../pages/poems/street.html)
 * [The Light of the Sun (Güneşin Işığı), by Asaf Halet Celebi](../pages/poems/the-light-of-the-sun.html)
 
