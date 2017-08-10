@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 DEPLOY="temp/"
-REMOTE="git@github.com:cattheory/cattheory.github.io.git"
+#REMOTE="git@github.com:cattheory/cattheory.github.io.git"
+REMOTE="https://github.com/cattheory/cattheory.github.io.git"
 SITE="_site"
 
 COMMIT=$(git log -1 HEAD --pretty=format:%H)
