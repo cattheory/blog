@@ -14,7 +14,7 @@ myFeedConfiguration = FeedConfiguration
     { feedTitle       = "cattheory blog"
     , feedDescription = "A blog about computer science and functional programming."
     , feedAuthorName  = "Joomy Korkut"
-    , feedAuthorEmail = "cumhurkorkut@gmail.com"
+    , feedAuthorEmail = "joomy@cattheory.com"
     , feedRoot        = "http://cattheory.com"
     }
 
@@ -28,10 +28,10 @@ main = hakyllWith hakyllConf $ do
         route   idRoute
         compile compressCssCompiler
 
-    -- match (fromList ["about.markdown"]) $ do
     match "pages/*" $ do
         route   $ setExtension "html"
         compile $ customPandocCompiler
+            -- >>= loadAndApplyTemplate "templates/page.html" defaultContext
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
@@ -39,6 +39,7 @@ main = hakyllWith hakyllConf $ do
     match "pages/poems/*" $ do
         route   $ setExtension "html"
         compile $ customPandocCompiler
+            >>= loadAndApplyTemplate "templates/page.html" defaultContext
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
     tags <- buildTags "posts/*" (fromCapture "tags/*.html")
