@@ -1,6 +1,6 @@
 ---
 title: Language immersion for linguistic freaks
-author: joom
+author: joomy
 tags: language
 description: My reflection on how I felt when I was adapting to an English-speaking environment.
 ---

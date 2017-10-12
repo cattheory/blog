@@ -21,7 +21,7 @@ git remote add origin $REMOTE
 cd "../"
 
 echo "Building site..."
-./site build > /dev/null
+stack exec site build > /dev/null
 cp -r $SITE/* $DEPLOY
 cp -r assets/* $DEPLOY
 cd $DEPLOY

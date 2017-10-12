@@ -1,6 +1,6 @@
 ---
 title: Testing the waters with poetry translation
-author: joom
+author: joomy
 tags: turkish, poetry, translation
 description: I translated a couple of famous Turkish poems to English. It turns out that translation is fun and tough. I'll also ramble a bit about adaptation to the US.
 ---

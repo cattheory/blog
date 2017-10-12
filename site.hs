@@ -11,7 +11,7 @@ hakyllConf = defaultConfiguration { deployCommand = "bash deploy.sh" }
 
 myFeedConfiguration :: FeedConfiguration
 myFeedConfiguration = FeedConfiguration
-    { feedTitle       = "cattheory blog"
+    { feedTitle       = "joomy's blog"
     , feedDescription = "A blog about computer science and functional programming."
     , feedAuthorName  = "Joomy Korkut"
     , feedAuthorEmail = "joomy@cattheory.com"

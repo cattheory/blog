@@ -1,6 +1,6 @@
 ---
 title: Switching to Kinesis Advantage
-author: joom
+author: joomy
 tags: keyboard, mac, vim
 description: My new keyboard and related workflow changes
 ---
@@ -185,3 +185,40 @@ have a chance of fixing my bad typing habits. My typing speed dropped in
 the first days but I was able to reach the same speed I had before in 4-5
 days. I don't think I'll switch to a different keyboard for a long time, though
 I might consider [attaching some kind of a trackpad/touchpad module](https://www.petekeen.net/mounting-a-magic-trackpad-on-a-kinesis-advantage-keyboard) on it later.
+
+-------
+
+## Update
+
+I acquired an [Ergo Touchpad](http://www.ergonomictouchpad.com/) and attached
+on the Advantage with Velcro. I also changed the Home/End/PageUp/PageDown
+keycaps with blank SA keycaps to make them easier to reach with my thumb.
+
+![Updated](http://i.imgur.com/1PgmNngl.jpg)
+
+Since Ergo Touchpad doesn't have a middle click, I added some extra settings to
+Karabiner to have key bindings for mouse keys. Now my `private.xml` file for
+Karabiner looks like this:
+
+```xml
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Simultaneous Key Presses [W+S] to LeftClick</name>
+    <identifier>remap.simultaneouskeypresses_ws2leftclick</identifier>
+    <autogen>__SimultaneousKeyPresses__ KeyCode::W, KeyCode::S, PointingButton::LEFT</autogen>
+  </item>
+  <item>
+    <name>Simultaneous Key Presses [E+D] to MiddleClick</name>
+    <identifier>remap.simultaneouskeypresses_ed2middleclick</identifier>
+    <autogen>__SimultaneousKeyPresses__ KeyCode::E, KeyCode::D, PointingButton::MIDDLE</autogen>
+  </item>
+  <item>
+    <name>Simultaneous Key Presses [R+F] to RightClick</name>
+    <identifier>remap.simultaneouskeypresses_rf2rightclick</identifier>
+    <autogen>__SimultaneousKeyPresses__ KeyCode::R, KeyCode::F, PointingButton::RIGHT</autogen>
+  </item>
+</root>
+```
+
+Now I can use the "mouse" with my left hand on the home row and my right hand on the touchpad.

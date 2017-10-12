@@ -1,6 +1,6 @@
 ---
 title: Starting a Haskell student forum at Wesleyan
-author: joom
+author: joomy
 tags: haskell, wesleyan, teaching
 description: I will be giving lectures on Functional Programming in Haskell next semester.
 ---
