@@ -62,8 +62,14 @@ pre {
     overflow: auto;
 }
 
+@font-face {
+	font-family: 'IosevkaWeb';
+	font-weight: 100;
+	src: url('../fonts/iosevka.woff2') format('woff2'), url('../fonts/iosevka.woff') format('woff');
+}
+
 code {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Iosevka', 'IosevkaWeb', monospace;
 }
 
 p code {
@@ -166,8 +172,8 @@ tbody>tr>td, tbody>tr>th, tfoot>tr>td, tfoot>tr>th, thead>tr>td, thead>tr>th {
     text-align: center;
     padding: 6px 0;
     border-radius: 6px;
-    font-size: 70%;
-    line-height: 1;
+    font-size: 80%;
+    line-height: 1.2;
 
     /* Position the tooltip text */
     position: absolute;
@@ -196,7 +202,7 @@ tbody>tr>td, tbody>tr>th, tfoot>tr>td, tfoot>tr>th, thead>tr>td, thead>tr>th {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
     visibility: visible;
-    opacity: 0.9;
+    opacity: 1;
   }
 
 /*******************************************************************************
