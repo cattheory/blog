@@ -53,16 +53,18 @@ cliché joke; [two people died because of this confusion back in
 2008](https://gizmodo.com/382026/a-cellphones-missing-dot-kills-two-people-puts-three-more-in-jail).
 One way to resolve the ambiguity in typing is to rely on vowel harmony. Since
 Turkish is an agglutinative language and suffixes can take different forms
-depending on the preceding vowel, the infinitive forms of the words above differ.
-"sıkılmak" (to be bored) and "sikilmek" (to get f'ed) differ by the last vowel.
+depending on the preceding vowel, other grammatical forms of the words above
+differ. For example, the infinitive forms "sıkılmak" (to be bored) and
+"sikilmek" (to get f'ed) differ by the last vowel.
 So even if the former word is spelled without diacritics, the reader can infer
 the meaning and pronunciation from the ending.
 
 Here are some other pairs of words that are hard to disambiguate when spelled without diacritics:
 
-* *acı*, *açı*
-* *acil*, *açıl*
-* *hali*, *halı*
+* *acı (pain)*, *açı* (angle)
+* *acil *(urgent), *açıl* (open up)
+* *hali *(state, condition), *halı* (carpet)
+* kustu (threw up), küstü (offended by someone) ([thanks Melisa](https://twitter.com/MelisaOlgun/status/932110828366651392))
 
 There are probably many more examples that I cannot think of right now. Feel
 free to comment if you have any interesting examples in mind.
@@ -82,7 +84,7 @@ Does it differ according to ages? Is it something that is learned, or can
 someone who has seen such a text for the first time understand it easily?
 How much difficulty do the non-native speakers of the language have with texts
 without diacritics? Especially if they are reading the text out loud, they have
-the know all the words and the vowel harmony rules by heart. Considering
+to know all the words and the vowel harmony rules by heart. Considering
 [Turkish can have really long words](https://en.wikipedia.org/wiki/Longest_word_in_Turkish) like
 *Çekoslovakyalılaştıramadıklarımızdanmışsınız*, seeing it without diacritics,
   in the form *Cekoslovakyalilastiramadiklarimizdanmissiniz*, requires the

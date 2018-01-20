@@ -3,23 +3,23 @@
 ### Fictions of a Child, by Afsar Timucin
 
 ```
-Will time pass through the bottoms of the reeds,
-In the way that the memories walk to the waters.
+Will time pass through the roots of the reeds,
+In the way that memories walk to waters.
 Look at the mirrors as much as you rejoice
-There will be a war, becoming a sky from the sea
+A war will grow into a sky from the sea
 
-Lovemakings are painted to the slumbers,
+Lovemakings are painted to slumbers,
 Because of snowing like exhausted snowflakes.
-The fields are now tired of flowers,
-The day fled and hid to snug corners.
+Fields are now tired of flowers,
+Day fled and hid in snug corners.
 
 You are the endless waters of delights
-You are the most beautiful river to the infinities
+You are the most beautiful river to infinities
 You are the best at every love
 You are a Chinese wall to solitudes
 
-Will time pass through the clouds,
-Without leaving a mistake to the memories.
+Will time pass through the clouds
+Without leaving a mistake to the memories
 You are a snowwhite, sunny night,
 There is no room for darknesses in your existence.
 ```

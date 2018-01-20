@@ -15,6 +15,10 @@ div#navigation {
     text-align: center;
 }
 
+div#navigation a:first-child {
+  margin-top: 0px;
+}
+
 div#navigation a {
     border: none;
     margin: 0px 6px 0px 6px;
@@ -38,7 +42,7 @@ div#lightbox {
         margin: 0px 0px 0px 18px;
         position: fixed;
         top: 0px;
-        width: 152px;
+        width: 170px;
     }
 
     div#navigation h1, div#navigation > a {
@@ -47,7 +51,7 @@ div#lightbox {
     }
 
     div#navigation > div > a > i.fa {
-      font-size:1.8em;
+      font-size:1.5em;
     }
 
     div#navigation > div {
