@@ -36,13 +36,18 @@ div#lightbox {
 
 @media all and (min-width: 822px) {
     div#navigation {
-        background: none;
+        /* background: none; */
         float: left;
         left: 0px;
-        margin: 0px 0px 0px 18px;
+        /* margin: 0px 0px 0px 18px; */
         position: fixed;
         top: 0px;
         width: 170px;
+        height: 100%;
+        padding: 0 20px 0 20px;
+        margin: 0;
+        /* background: rgba(0,0,0,0.05); */
+        /* border-right: 1px dotted rgba(0,0,0,0.5); */
     }
 
     div#navigation h1, div#navigation > a {
@@ -55,6 +60,7 @@ div#lightbox {
     }
 
     div#navigation > div {
+      margin-top:10px;
       text-align: right;
     }
 
