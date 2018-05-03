@@ -1,12 +1,17 @@
 # Research
 
-Thinking Outside the □: Verified Compilation of ML5 to JavaScript.[^1]
+Edit-Time Tactics in Idris<br>
+Master's thesis, 2018. Advisor: Daniel R. Licata. <br>
+[[pdf]](/editTimeTacticsDraft.pdf) [[poster]](/editTimeTacticsPoster.pdf) [[slides]](http://github.com/joom/edit-time-tactics/blob/master/defense-slides/slides.key)
+
+Thinking Outside the □: Verified Compilation of ML5 to JavaScript[^1]<br>
 Senior thesis, 2017. Advisor: Daniel R. Licata. <br>
 [[pdf]](/ml5toJs.pdf) [[poster]](/ml5toJsPoster.pdf) [[Agda code]](http://github.com/joom/thesis-modal)
 
 
-Intrinsic Verification of a Regular Expression Matcher. With Maksim Trifunovski and Daniel R. Licata.
-Submitted, 2016. <br> [[pdf]](/regexp2016.pdf) [[Agda code]](http://github.com/joom/regexp-agda)
+Intrinsic Verification of a Regular Expression Matcher <br>
+with Maksim Trifunovski and Daniel R. Licata.
+Unpublished draft, 2016. <br> [[pdf]](/regexp2016.pdf) [[Agda code]](http://github.com/joom/regexp-agda)
 
 # Other Writing
 
