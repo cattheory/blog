@@ -1,6 +1,6 @@
 h1, h2, h3 {
     margin: 0px 0px 18px 0px;
-    color: #333 !important;
+    color: #32231F !important;
     padding: 24px 0px 0px 0px;
 }
 
@@ -29,17 +29,17 @@ html {
 }
 
 body {
-    color: #333;
+    color: #32231F;
 }
 
 a {
-    color: red;
+    color: #E73211;
     text-decoration: none;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #32231F;
 }
 
 a:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #E73211;
 }
 
 div.figure a{

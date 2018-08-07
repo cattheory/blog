@@ -1,5 +1,10 @@
 # Research
 
+Extensible Type-Directed Editing<br>
+with David Thrane Christiansen.
+[TyDe '18](https://icfp18.sigplan.org/track/tyde-2018), 2018. <br>
+*(preprint will be posted soon)*
+
 Edit-Time Tactics in Idris<br>
 Master's thesis, 2018. Advisor: Daniel R. Licata. <br>
 [[pdf]](/editTimeTacticsDraft.pdf) [[poster]](/editTimeTacticsPoster.pdf) [[slides]](http://github.com/joom/edit-time-tactics/blob/master/defense-slides/slides.key)
