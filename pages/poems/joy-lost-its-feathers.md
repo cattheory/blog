@@ -3,29 +3,29 @@
 ### Joy Lost Its Feathers, by Metin Altiok
 
 ```
-your name on the tip of my tongue,
-the void of
+your name on the tip of my tongue
+is the void of
 a recently pulled tooth.
-a screw without a bolt
+a screw without its bolt
 my heart is about to break off.
 come here as soon as possible
-let's eat some melon together.
+we'll eat some melon together.
 
-I don't know what to say,
-being not shattered by you,
+I don't know what to say
+to you, unshattered,
 a pain in friendship's chest,
-love is covered with dust,
+love is covered in dust,
 joy lost its feathers.
 come here as soon as possible
-let's eat some melon together.
+we'll eat some melon together.
 
 I rise and sink incessantly
-you know I cannot swim well.
-my sheet is showing its teeth
-my mattress, swinging for
+you know I can't swim well.
+my bedsheets are showing their teeth
+my mattress, wobbly for
 who knows how many days, is a wavy sea
 come here as soon as possible
-let's eat some melon together.
+we'll eat some melon together.
 ```
 
 </div><div style="float: left">
@@ -53,7 +53,7 @@ batıp çıkıyorum durmadan,
 ben bilirsin iyi yüzemem.
 çarşafım diş gösteriyor,
 dalgalı bir deniz kaç gündür
-sallanan bir döşeğim.
+sallanan döşeğim.
 biran önce gel buraya
 karpuz, kavuz yiyelim.
 ```
