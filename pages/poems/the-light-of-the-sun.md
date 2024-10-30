@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### The Light of the Sun, by Asaf Halet Celebi
 
 ```
@@ -24,7 +23,7 @@ I'm looking for the one to tell about the light of the sun
 the sun shines on my inside
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Güneşin Işığı, Asaf Halet Çelebi
 

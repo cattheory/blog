@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Afternoon Song of the Tree, by Afsar Timucin
 
 ```
@@ -24,7 +23,7 @@ The yellowed leaf, falling down with the wind
 Must forget the branch
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Ağacın İkindi Türküsü, Afşar Timuçin
 

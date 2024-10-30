@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Peninsula, by Cemal Sureya
 
 ```
@@ -50,7 +49,7 @@ We're broken, and we further will be
 No one can touch our innocence.
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Yarımada, Cemal Süreya
 

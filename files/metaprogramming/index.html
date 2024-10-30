@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Metaprogramming reading list</title>
+    <meta name="description" content="Metaprogramming reading list">
+    <meta name="author" content="Joomy Korkut">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="metaprogramming, reflection, metaocaml, template haskell, tactics" />
+    <base target="_blank">
+    <link rel="stylesheet" type="text/css" href="../assets/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">
+        Metaprogramming reading list
+      </div>
+      <!-- <div class="subtitle"> -->
+      <!-- </div> -->
+      <!-- <div class="subsubtitle"> -->
+      <!--   <p> -->
+      <!--   </p> -->
+      <!-- </div> -->
+    </div>
+    <div class="content">
+        <section>
+          <h1>General Literature Review</h1>
+          <ul>
+            <li>
+              <a href="https://link.springer.com/chapter/10.1007%2F3-540-44806-3_2">Accomplishments and Research Challenges in Meta-programming</a>.
+              Tim Sheard. International Workshop on Semantics, Applications, and Implementation of Program Generation. 2001.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h1>Multi-Staged Programming</h1>
+          <ul>
+            <li>
+              <a href="https://link.springer.com/chapter/10.1007/978-3-540-25935-0_3">A Gentle Introduction to Multi-stage Programming</a>.
+              Walid Taha. Domain-Specific Program Generation. 2004.
+            </li>
+            <li>
+              <a href="https://dl.acm.org/citation.cfm?id=3278139">A Practical Unification of Multi-stage Programming and Macros</a>.
+              Nicolas Stucki, Aggelos Biboudis, Martin Odersky. International Conference on Generative Programming: Concepts and Experiences. 2018.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h1>Macros</h1>
+          <ul>
+            <li>
+              <a href="https://www.cs.utah.edu/plt/publications/popl16-f.pdf">Bindings as Sets of Scopes</a>.
+              Matthew Flatt. Principles of Programming Languages. 2016.
+            </li>
+            <li>
+              <a href="https://people.csail.mit.edu/jrb/Projects/dexprs.pdf">D-Expressions: Lisp Power, Dylan Style</a>.
+              Jonathan Bachrach, Keith Playford. 1999.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h1>Computational Reflection</h1>
+          <ul>
+            <li>
+              <a href="https://link.springer.com/chapter/10.1007/978-3-540-89275-5_6">Reflection for the Masses</a>.
+              Charlotte Herzeel, Pascal Costanza, Theo D'Hondt. Workshop on Self-sustaining Systems. 2008.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h1>Calculi</h1>
+          <ul>
+            <li>
+              <a href="https://arxiv.org/abs/1908.02035">A Dependently Typed Multi-Stage Calculus</a>.
+              Akira Kawata, Atsushi Igarashi. 2019.
+            </li>
+            <li>
+              <a href="http://drops.dagstuhl.de/opus/volltexte/2017/7277/pdf/LIPIcs-ECOOP-2017-5.pdf">Modelling Homogeneous Generative Meta-Programming</a>.
+              Martin Berger, Laurence Tratt, Christian Urban. European Conference on Object-Oriented Programming. 2016.
+            </li>
+            <li>
+              <a href="https://www.researchgate.net/publication/2673832_Efficient_Self-Interpretation_in_Lambda_Calculus">Efficient Self-Interpretation in Lambda Calculus</a>.
+              Torben Æ. Mogensen. 1994.
+            </li>
+          </ul>
+        </section><br><br>
+        <p>A good collection of metaprogramming papers can be found <a href="https://github.com/metaocaml/metaocaml-bibliography">here</a>.</p>
+        <div class="update">Last updated:</div>
+        <script>
+          var opt = {weekday: "long", year: "numeric", month: "long", day: "numeric"}
+          var date = new Date(document.lastModified).toLocaleDateString("en-US", opt)
+          document.querySelector(".update").innerText += " " + date + "\n\n"
+        </script>
+    </div>
+  </body>
+</html>

@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Mist, by Metin Altiok
 
 ```
@@ -21,7 +20,7 @@ I ran, ceaselessly ran with that little fire of mine,
 To find my own sky, on the desperate shores of my name.
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Sis, Metin Altıok
 

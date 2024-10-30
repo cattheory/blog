@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### After Death, by Nazim Hikmet
 
 ```
@@ -29,7 +28,7 @@ I sometimes believe the dead are alive
 All old flames waiting there.
 ```
 
-</div><div style="float:left">
+</div><div style="float: left; margin: 10px;">
 
 ### Öldükten Sonra, Nâzım Hikmet
 

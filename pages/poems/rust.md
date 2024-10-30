@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Rust, by Edip Cansever
 
 ```
@@ -50,7 +49,7 @@ Respects to your memories
 Our respects, as deep as a bullet wound
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Pas, Edip Cansever
 

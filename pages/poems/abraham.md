@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Abraham, by Asaf Halet Celebi
 
 ```
@@ -23,7 +22,7 @@ abraham
 who mistook my heart for an idol and broke it
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### İbrahim, Asaf Halet Çelebi
 

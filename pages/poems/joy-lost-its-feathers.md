@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Joy Lost Its Feathers, by Metin Altiok
 
 ```
@@ -28,7 +27,7 @@ come here as soon as possible
 we'll eat some melon together.
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Havı Dökülmüş Sevincin, Metin Altıok
 

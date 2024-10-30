@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Fictions of a Child, by Afsar Timucin
 
 ```
@@ -24,7 +23,7 @@ You are a snowwhite, sunny night,
 There is no room for darknesses in your existence.
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Çocuğun Kurguları, Afşar Timuçin
 

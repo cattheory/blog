@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Seven Little Photos, by Onat Kutlar
 
 ```
@@ -32,7 +31,7 @@ the one they love, to their bed on floor
 The Earth only changes when you make love
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Yedi Küçük Fotoğraf, Onat Kutlar
 

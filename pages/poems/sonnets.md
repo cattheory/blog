@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Sonnets I, by Metin Altiok
 
 ```
@@ -20,7 +19,7 @@ What a pity, no chance of love in this bitter world,
 Nothing to share, except for sorrow.
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Soneler I, Metin Altıok
 

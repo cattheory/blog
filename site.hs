@@ -15,23 +15,15 @@ myFeedConfiguration = FeedConfiguration
     { feedTitle       = "joomy's blog"
     , feedDescription = "A blog about computer science and functional programming."
     , feedAuthorName  = "Joomy Korkut"
-    , feedAuthorEmail = "joomy@cattheory.com"
-    , feedRoot        = "http://cattheory.com"
+    , feedAuthorEmail = "joomy@type.systems"
+    , feedRoot        = "http://joomy.korkutblech.com"
     }
 
 main :: IO ()
 main = hakyllWith hakyllConf $ do
-    match "images/*" $ do
+    match "assets/*" $ do
         route   idRoute
         compile copyFileCompiler
-
-    match "fonts/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-    match "css/*" $ do
-        route   idRoute
-        compile compressCssCompiler
 
     match "pages/*" $ do
         route   $ setExtension "html"
@@ -82,24 +74,24 @@ main = hakyllWith hakyllConf $ do
                 >>= relativizeUrls
 
     -- Turkish posts
-    etiket <- buildTags "tr/*" (fromCapture "etiket/*.html")
-    match "tr/*" $ do
+    etiket <- buildTags "yazilar/*" (fromCapture "etiket/*.html")
+    match "yazilar/*" $ do
         route $ setExtension "html"
         compile $ customPandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html" (postCtx etiket)
+            >>= loadAndApplyTemplate "templates/yazi.html" (postCtx etiket)
             >>= saveSnapshot "post-content"
             >>= loadAndApplyTemplate "templates/default.html" (postCtx etiket)
             >>= relativizeUrls
-    create ["turkce.html"] $ do
+    create ["arsiv.html"] $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAllSnapshots "tr/*" "post-content"
+            posts <- recentFirst =<< loadAllSnapshots "yazilar/*" "post-content"
             let archiveCtx =
-                    listField "posts" (postCtx etiket) (return posts) <>
-                    constField "title" "Türkçe yazılar" <>
+                    listField "yazilar" (postCtx etiket) (return posts) <>
+                    constField "title" "Arşiv" <>
                     defaultContext
             makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/arsiv.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
     -- Turkish tags
@@ -109,10 +101,10 @@ main = hakyllWith hakyllConf $ do
         compile $ do
             posts <- recentFirst =<< loadAll pattern
             let ctx = constField "title" title <>
-                        listField "posts" (postCtx etiket) (return posts) <>
+                        listField "yazilar" (postCtx etiket) (return posts) <>
                         defaultContext
             makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" ctx
+                >>= loadAndApplyTemplate "templates/arsiv.html" ctx
                 >>= loadAndApplyTemplate "templates/default.html" ctx
                 >>= relativizeUrls
 
@@ -121,9 +113,12 @@ main = hakyllWith hakyllConf $ do
         route idRoute
         compile $ do
             posts <- fmap (take 3) . recentFirst =<< loadAll "posts/*"
+            yazilar <- fmap (take 3) . recentFirst =<< loadAll "yazilar/*"
             let indexContext =
                     listField "posts" (postCtx tags) (return posts) <>
                     field "tags" (\_ -> renderTagList tags) <>
+                    listField "yazilar" (postCtx etiket) (return yazilar) <>
+                    field "etiketler" (\_ -> renderTagList etiket) <>
                     defaultContext
             getResourceBody
                 >>= applyAsTemplate indexContext
@@ -144,7 +139,7 @@ main = hakyllWith hakyllConf $ do
         compile $ do
             let feedCtx = (postCtx tags) <> bodyField "description"
             posts <- fmap (take 10) . recentFirst =<<
-                loadAllSnapshots "tr/*" "post-content"
+                loadAllSnapshots "yazilar/*" "post-content"
             renderAtom myFeedConfiguration feedCtx posts
 
 --------------------------------------------------------------------------------

@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Every Love in Our Age, by Roni Margulies
 
 ```
@@ -39,7 +38,7 @@ and the children of our age, Elsa and I
 are defeated, just like anyone else.
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Çağımızda Her Aşk, Roni Margulies
 

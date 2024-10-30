@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### Street, by Onat Kutlar
 
 ```
@@ -60,7 +59,7 @@ there will only remain an infinite and nameless sea and a pine tree
 kissing my waters.
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Sokak, Onat Kutlar
 

@@ -1,5 +1,4 @@
-<style> #content { width: inherit !important; } </style>
-<div style="float:left">
+<div style="float: left; margin: 10px;">
 ### A Lilac Death, by Behcet Aysan
 
 ```
@@ -44,7 +43,7 @@ except death.
 it's the same sky, it's the same grief.
 ```
 
-</div><div style="float: left">
+</div><div style="float: left; margin: 10px;">
 
 ### Bir Eflatun Ölüm, Behçet Aysan
 

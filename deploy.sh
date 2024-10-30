@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 DEPLOY="temp/"
-#REMOTE="git@github.com:cattheory/cattheory.github.io.git"
-REMOTE="https://github.com/cattheory/cattheory.github.io.git"
+#REMOTE="git@github.com:joom/joom.github.io.git"
+REMOTE="https://github.com/joom/joom.github.io.git"
 SITE="_site"
 
 COMMIT=$(git log -1 HEAD --pretty=format:%H)
@@ -23,7 +23,7 @@ cd "../"
 echo "Building site..."
 stack exec site build > /dev/null
 cp -r $SITE/* $DEPLOY
-cp -r assets/* $DEPLOY
+cp -r files/* $DEPLOY
 cd $DEPLOY
 
 echo "Pushing site to git..."

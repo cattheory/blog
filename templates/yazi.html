@@ -1,0 +1,22 @@
+<div class="header">
+  <section>
+    <h1 class="to-right"><a href="/">Ana sayfa</a> | <a href="javascript:history.back()">Geri dön</a></h1>
+  </section>
+  <div class="title">
+    Cumhur Korkut'un blogu
+  </div>
+  <div class="title">
+    <a href=$url$>$title$</a>
+  </div>
+  <div class="subtitle">
+      <span class="turkce-tarih">$date$</span> tarihinde 
+      $if(tags)$
+        yazılıp $tags$ ile etiketlendi.
+      $else$
+        yazıldı.
+      $endif$
+  </div>
+</div>
+<div class="content">
+  $body$
+</div>

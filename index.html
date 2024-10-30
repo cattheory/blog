@@ -1,51 +1,189 @@
 ---
-title: Recent Posts
+title: Home Page
 ---
 
-<img src="https://avatars2.githubusercontent.com/u/1611120?v=3&s=460" class="photo"/>
-<p>
-  I'm <span class="tooltip">Joomy<span class="tooltiptext">A nickname for
-      Cumhur, [d͡ʒumhuɾ] in Turkish IPA, <br>"joom hoor" in English
-      approximation. <br><b>I prefer Joomy unless you speak Turkish.</b></span></span>
-  Korkut,
-  an <a href="http://www.cs.princeton.edu/~ckorkut/" target="_blank">aspiring academic</a> who is interested in
-  programming language theory and linguistics. <a href="/joomy_cv.pdf">My CV is here.</a>
-</p><p>
-  I am currently a PhD student at <a
-    href="http://princeton.edu">Princeton University</a>, advised by <a
-    href="https://www.cs.princeton.edu/~appel/">Andrew W. Appel</a>.
-    My academic web page is <a href="http://www.cs.princeton.edu/~ckorkut/">here</a>.
-</p><p>
-  Before this, I was an undergrad and then a master's
-  student at <a href="http://wesleyan.edu">Wesleyan University</a>,
-  advised by <a href="http://dlicata.web.wesleyan.edu/">Dan Licata</a>.
-  For my master's research, I extended the editor features of
-  <a href="https://www.idris-lang.org/">Idris</a>, a dependently typed
-  language and proof assistant, through metaprogramming. My goal was to
-  produce a system in which one can use Idris metaprograms in the editor to
-  write Idris code more easily, and even automatically.
-  <a href="https://asciinema.org/a/rrwboxAr2VdiUQsZov0RDinJw">Here's a screencast that shows how it works</a>
-  and <a href="/editTimeTacticsDraft.pdf">here is my thesis</a>.
-</p><p>
-  In my free time, I play the accordion and
-  <a href="https://www.youtube.com/watch?v=A4mfp19fzUE">fretless</a>
-  <a href="https://www.facebook.com/birolumben/videos/vb.748444625/10151004178889626/">bass</a>, occasionally
-  <a href="https://soundcloud.com/cattheory/tracks">recite</a> and
-  <a href="/posts/2014-11-30-turkish-poetry.html#the-list">translate</a> poetry, and
-  <a href="https://www.youtube.com/watch?v=9_dXeWDFSvQ">sing</a>
-  <a href="https://soundcloud.com/isinekin/ezginin-gunlugu-kedim-cover-cumhur-isin">a bit</a>.
-  Oh, and the Wesleyan newspaper <a href="http://wesleyanargus.com/2016/12/01/wesceleb-joomy-korkut-17/">interviewed me</a> once.
-</p>
+<div class="header">
+  <a href="/assets/photo.jpg"><img src="/assets/photo.jpg" class="photo"></a>
+  <div class="title">
+    <span class="tooltip" id="name-tooltip" tabindex="1">Joomy</span> Korkut
+  </div>
+  <!-- <div class="subtitle"> -->
+  <!--   Computer scientist. -->
+  <!-- </div> -->
+  <div class="subsubtitle">
+    <p>I am a researcher at <a href="https://www.bloomberg.com/company/values/tech-at-bloomberg/" target="_blank">Bloomberg</a>'s CTO Infrastructure and Security Research team in New York City, applying formal methods in industry.</p>
 
-<p>You can reach me at <a href="mailto:joomy@cs.princeton.edu">joomy@cs.princeton.edu</a>,
-but I'll probably reply much faster on <a href="http://twitter.com/cattheory">Twitter</a>.</p>
+    <p>I finished my PhD in computer science at <a href="http://pl.cs.princeton.edu/" target="_blank">Princeton University</a>, advised by <a href="https://www.cs.princeton.edu/~appel/" target="_blank">Andrew W. Appel</a>, in 2024.<span class="tooltip" id="genealogy-tooltip"><a href="./others/academic-genealogy.html" target="_blank"><b>*</b></a></span>
+    </p>
 
-<h1 style="clear: left">Recent blog posts</h1>
-$partial("templates/post-archive.html")$
+    <p>
+    I am interested in functional programming languages, compilers, type systems, and formal verification (especially with interactive theorem provers, such as <a href="https://coq.inria.fr/" target="_blank">Coq</a> and <a href="https://agda.github.io/" target="_blank">Agda</a>). I am particularly interested in applications of metaprogramming, property-based testing, and separation logic.
+    </p>
 
-<a type="application/rss+xml" href="/atom.xml">
-  <i class="fa fa-rss-square"></i> Feed</a>
-| <a href="/archive.html">All posts...</a>
-<p class="tags">
-    Browse: $tags$
-</p>
+    <p>
+    You can reach me at <a href="mailto:jkorkut@bloomberg.net">jkorkut@bloomberg.net</a> regarding my work at Bloomberg or <a href="mailto:joomy@type.systems">joomy@type.systems</a> for other matters.
+    </p>
+    <p>
+    My <a href="./joomy_cv.pdf" target="_blank">CV</a> is available here, as well as other online profiles: <small><a href="http://twitter.com/joomy" target="_blank">Twitter</a>, <a rel="me" href="https://functional.cafe/@joomy" target="_blank">Mastodon</a>, <a href="https://scholar.google.com/citations?user=KJ_H_OwAAAAJ" target="_blank">Google Scholar</a>, <a href="https://orcid.org/0000-0001-6784-7108" target="_blank">ORCID</a>, <a href="https://www.linkedin.com/in/joomykorkut/" target="_blank">LinkedIn</a>, <a href="http://github.com/joom" target="_blank">GitHub</a>, <a href="https://www.alphaxiv.org/profile/66ddc84bff7eae275fdccb0b" target="_blank">alphaXiv</a>, <a href="https://stackoverflow.com/users/2016295/joomy-korkut" target="_blank">Stack Overflow</a>, <a href="http://last.fm/user/cattheory" target="_blank">Last.fm</a>, <a href="https://open.spotify.com/user/12122900763" target="_blank">Spotify</a>.</small>
+    </p>
+    <p>
+      In my free time, I play the
+      <a href="https://www.youtube.com/watch?v=A4mfp19fzUE" target="_blank">fretless</a>
+      <a href="https://www.facebook.com/birolumben/videos/vb.748444625/10151004178889626/" target="_blank">bass</a>, occasionally
+      <a href="https://translationattached.com/translators-collective/" target="_blank">translate literature</a>, and
+      <a href="https://www.youtube.com/watch?v=9_dXeWDFSvQ" target="_blank">sing</a>
+      <a href="https://soundcloud.com/isinekin/ezginin-gunlugu-kedim-cover-cumhur-isin" target="_blank">a</a> <a href="https://www.youtube.com/playlist?list=PLFg1JePH6Lz1_Tc-JgXfzl7rizpM2NJfV" target="_blank">bit</a>.
+      <!-- Oh, and the Wesleyan newspaper <a href="http://wesleyanargus.com/2016/12/01/wesceleb-joomy-korkut-17/" target="_blank">interviewed me</a> once. -->
+    </p>
+  </div>
+</div>
+<div class="content">
+    <!-- <section> -->
+    <!--   <h1>Internship</h1> -->
+    <!--   <ul> -->
+    <!--     <li> -->
+    <!--     I am looking for interns for the summer of 2025, but other timelines are also possible. If you are interested, please reach out to me at my Bloomberg e-mail address. -->
+    <!--     </li> -->
+    <!--   </ul> -->
+    <!-- </section> -->
+    <section>
+      <h1>Academic Work</h1>
+      <ul>
+        <li class="dissertation">
+          <a href="./papers/dissertation.pdf" target="_blank">Foreign Function Verification Through Metaprogramming</a>. Joomy Korkut. PhD dissertation. Princeton University. 2024.
+          <br>
+          <small>
+            <a href="https://github.com/CertiCoq/VeriFFI" target="_blank">[Coq code]</a>
+            <a href="./papers/dissertation-slides.pptx" target="_blank">[PowerPoint slides]</a>
+            <a href="./papers/dissertation-slides.pdf" target="_blank">[PDF slides]</a>
+            <a href="./papers/dissertation-slides-notes.pdf" target="_blank">[PDF slides with speaker notes]</a>
+          </small>
+        </li>
+        <li>
+          <a href="./papers/veriffi.pdf" target="_blank">A Verified Foreign Function Interface Between Coq and C</a>. Joomy Korkut, <a href="https://www.k-stark.de/" target="_blank">Kathrin Stark</a>, <a href="https://www.cs.princeton.edu/~appel/" target="_blank">Andrew W. Appel</a>. <i>(conditionally accepted to <a href="https://popl25.sigplan.org/" target="_blank">POPL 2025</a>)</i>. 2024.
+          <br>
+          <small>
+            <a href="https://github.com/CertiCoq/VeriFFI" target="_blank">[Coq code]</a>
+          </small>
+        </li>
+        <li>
+          <a href="./papers/ptb.pdf" target="_blank">A Proof Tree Builder for Sequent Calculus and Hoare Logic</a>. Joomy Korkut. <a href="https://www.uc.pt/en/congressos/thedu/ThEdu22" target="_blank">ThEdu '22</a>, published in EPTCS. 2022.
+          <br>
+          <small>
+            <a href="https://www.youtube.com/watch?v=pGtSKy1ctKY" target="_blank">[Video]</a>
+            <a href="https://proof-tree-builder.github.io/" target="_blank">[Application link]</a>
+            <a href="https://github.com/proof-tree-builder" target="_blank">[JavaScript code]</a>
+          </small>
+        </li>
+        <li>
+          <a href="./papers/ottoman.pdf" target="_blank">Morphology and Lexicon-based Machine Translation of Ottoman Turkish to Modern Turkish</a>. Joomy Korkut. Unpublished draft, 2019.<span class="tooltip" id="ottoman-tooltip"><a href="./others/lost-in-translation.pdf"><b>*</b></a></span>
+          <br>
+          <small>
+            <a href="https://github.com/joom/dilacar" target="_blank">[Haskell code]</a>
+          </small>
+        </li>
+        <li>
+          <a href="./papers/extensible-type-directed-editing.pdf" target="_blank">Extensible Type-Directed Editing</a>.
+          Joomy Korkut, <a href="http://davidchristiansen.dk/" target="_blank">David Thrane Christiansen</a>. <a href="https://icfp18.sigplan.org/track/tyde-2018" target="_blank">TyDe ’18,</a> 2018.
+        </li>
+        <li>
+          <a href="./papers/edit-time-tactics.pdf" target="_blank">Edit-Time Tactics in Idris</a>.
+          Joomy Korkut. Master's thesis. Wesleyan University. 2018.
+          <br>
+          <small>
+            <a href="https://github.com/joom/edit-time-tactics" target="_blank">[Idris code for demos]</a>
+            <a href="https://github.com/joom/hezarfen" target="_blank">[Idris code for Hezarfen]</a>
+            <a href="./papers/edit-time-tactics-poster.pdf" target="_blank">[Poster]</a>
+          </small>
+        </li>
+        <li>
+          <a href="./papers/ml5-to-js.pdf" target="_blank">Thinking Outside the □: Verified Compilation of ML5 to JavaScript</a>.
+          Joomy Korkut. Undergraduate senior thesis. Wesleyan University. 2017.
+          <br>
+          <small>
+            <a href="https://github.com/joom/modal" target="_blank">[Agda code]</a>
+            <a href="./papers/ml5-to-js-poster.pdf" target="_blank">[Poster]</a>
+          </small>
+        </li>
+        <li>
+          <a href="./papers/regexp2016.pdf" target="_blank">Intrinsic Verification of a Regular Expression Matcher</a>.
+          Joomy Korkut, <a href="http://trifunovski.com/" target="_blank">Maksim Trifunovski</a>, <a href="http://dlicata.web.wesleyan.edu/" target="_blank">Daniel R. Licata</a>. Unpublished draft. 2016.
+          <br>
+          <small>
+            <a href="https://github.com/joom/regexp-agda" target="_blank">[Agda code]</a>
+          </small>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h1>Selected Talks</h1>
+      <ul>
+        <!-- <li> -->
+        <!--   <a href="https://pl.cs.princeton.edu/generals/ckorkut.html">Ergonomics and verification of a foreign function interface between Coq and C</a>, general exam talk, May 14th, 2020. -->
+        <!--   <br> -->
+        <!--   <small> -->
+        <!--       <a href="https://pl.cs.princeton.edu/generals/slides/ckorkut.pdf">[PDF slides]</a> -->
+        <!--   </small> -->
+        <!-- </li> -->
+        <li>
+          <a href="./papers/icfp-src-19-reflection.pdf" target="_blank">Direct Reflection for Free!</a>, at <a href="https://icfp19.sigplan.org/track/icfp-2019-Student-Research-Competition" target="_blank">ICFP 2019 Student Research Competition</a> finalist talks (bronze medal), August 20th, 2019.
+          <br>
+          <small>
+              <a href="./papers/icfp-src-19-poster.pdf" target="_blank">[PDF poster]</a>
+              <a href="./papers/icfp-src-19-slides.pdf" target="_blank">[PDF slides]</a>
+              <a href="./papers/icfp-src-19-slides.key" target="_blank">[Keynote slides]</a>
+              <a href="https://github.com/joom/direct-reflection-for-free" target="_blank">[Haskell code]</a>
+          </small>
+        </li>
+        <li>
+          <a href="https://icfp19.sigplan.org/details/scheme-2019-papers/10/Lightning-talk-Commanding-Emacs-from-Coq" target="_blank">Commanding Emacs from Coq</a>, at <a href="https://icfp19.sigplan.org/home/scheme-2019" target="_blank">Scheme Workshop 2019</a>, August 18th, 2019.
+          <br>
+          <small>
+              <a href="https://www.youtube.com/watch?v=UebPmYcI13M" target="_blank">[Video]</a>
+              <a href="./papers/scheme19slides.pdf" target="_blank">[PDF slides]</a>
+              <a href="https://github.com/joom/metaprogrammable-editor/" target="_blank">[Coq and Emacs Lisp code]</a>
+          </small>
+        </li>
+        <!-- <li> -->
+        <!--   Direct Reflection for Free!, at <a href="https://nyplse.commons.gc.cuny.edu/" target="_blank">New York Seminar on Programming Languages and Software Engineering</a>, February 25th, 2019. -->
+        <!-- </li> -->
+      </ul>
+    </section>
+
+    <section>
+      <h1 class="to-right"><a href="javascript:enBlog()" class="flag">English</a> / <a href="javascript:trBlog()" class="flag">Türkçe</a></h1>
+      <h1 class="posts-en">Recent blog posts</h1>
+      <h1 class="posts-tr">Son blog yazıları</h1>
+
+      <div class="posts-en">
+        <ul>
+          $partial("templates/post-archive.html")$
+        </ul>
+        <span class="gray">
+          <small>
+            <a type="application/rss+xml" href="/atom.xml">[RSS feed]</a>
+            <a href="/archive.html">[all posts]</a>
+            <p class="tags">
+                Tags: $tags$
+            </p>
+          </small>
+        </span>
+      </div>
+      <div class="posts-tr">
+        <ul>
+          $partial("templates/yazi-arsivi.html")$
+        </ul>
+        <span class="gray">
+          <small>
+            <a type="application/rss+xml" href="/atom-tr.xml">[RSS dağıtımı]</a>
+            <a href="/arsiv.html">[tüm yazılar]</a>
+            <p class="tags">
+                Etiketler: $etiketler$
+            </p>
+          </small>
+        </span>
+      </div>
+    </section>
+
+    <div class="update">Last updated:</div>
+</div>
