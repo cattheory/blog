@@ -21,7 +21,7 @@ body {
   margin-top: 6pt;
   max-width: 550pt;
   font-size: 15pt;
-  color: #857769
+  color: #857769;
 }
 .subsubtitle {
   margin-top: 6pt;
@@ -184,4 +184,8 @@ img.photo {
 .to-right {
   float: right;
   text-align: right;
+}
+
+blockquote {
+  color: #857769;
 }
