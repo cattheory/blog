@@ -11,13 +11,9 @@ echo $SHA
 
 echo "Creating deploy directory..."
 rm -rf $DEPLOY
-mkdir $DEPLOY
+git clone $REMOTE $DEPLOY
 cd $DEPLOY
-
-echo "Initializing git..."
-git init -q
-git checkout --orphan master -q
-git remote add origin $REMOTE
+rm -rf ./*
 cd "../"
 
 echo "Building site..."
@@ -29,6 +25,6 @@ cd $DEPLOY
 echo "Pushing site to git..."
 git add --all
 git commit -m "generated from $SHA"
-git push origin master --force -q
+git push origin main --force -q
 
 echo "Finished deploying!"
